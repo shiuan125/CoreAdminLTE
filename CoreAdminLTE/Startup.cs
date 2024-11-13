@@ -10,6 +10,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Serilog;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -44,6 +45,10 @@ namespace CoreAdminLTE
                     .RequireAuthenticatedUser()
                     .Build();
                 o.Filters.Add(new AuthorizeFilter(policy));
+            });
+            services.ConfigureApplicationCookie(options =>
+            {
+                options.Cookie.Name = "MyCustomCookieName";
             });
         }
 

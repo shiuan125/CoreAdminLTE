@@ -30,5 +30,67 @@ namespace CoreAdminLTE.Helpers
                 return null;
             }
         }
+        public static string MakeMenuOpenClass(this IUrlHelper urlHelper, string controller)
+        {
+            try
+            {
+                if (urlHelper.ActionContext.RouteData.Values["controller"] == null)
+                    return null;
+
+                string result = "menu-is-opening menu-open";
+                string controllerName = urlHelper.ActionContext.RouteData.Values["controller"].ToString();
+                if (string.IsNullOrEmpty(controllerName)) return null;
+                if (controllerName.Equals(controller, StringComparison.OrdinalIgnoreCase))
+                    return result;
+
+                return null;
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        }
+
+        public static string MakeMenuActiveClass(this IUrlHelper urlHelper, string controller)
+        {
+            try
+            {
+                if (urlHelper.ActionContext.RouteData.Values["controller"] == null)
+                    return null;
+
+                string result = "active";
+                string controllerName = urlHelper.ActionContext.RouteData.Values["controller"].ToString();
+                if (string.IsNullOrEmpty(controllerName)) return null;
+                if (controllerName.Equals(controller, StringComparison.OrdinalIgnoreCase))
+                    return result;
+
+                return null;
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        }
+        public static string MakeMenuDisplayClass(this IUrlHelper urlHelper, string controller)
+        {
+            try
+            {
+                if (urlHelper.ActionContext.RouteData.Values["controller"] == null)
+                    return "none";
+
+                string result = "block";
+                string controllerName = urlHelper.ActionContext.RouteData.Values["controller"].ToString();
+                if (string.IsNullOrEmpty(controllerName)) return null;
+                if (controllerName.Equals(controller, StringComparison.OrdinalIgnoreCase))
+                    return result;
+
+                return "none";
+            }
+            catch (Exception)
+            {
+                return "none";
+            }
+        }
+        
     }
 }

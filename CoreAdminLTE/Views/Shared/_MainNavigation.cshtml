@@ -9,7 +9,14 @@
     <div class="sidebar">
         <div class="user-panel mt-3 pb-3 mb-3 d-flex">
             <div class="image">
-                <img src="~/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <img src="~/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+                }
+                else
+                {
+
+                }
             </div>
             <div class="info">
                 @if (User.Identity.IsAuthenticated)
@@ -18,7 +25,7 @@
                 }
                 else
                 {
-                    <a href="#" class="d-block">Alexander Pierce</a>
+                    //<a href="#" class="d-block">Alexander Pierce</a>
                 }
             </div>
         </div>
@@ -39,6 +46,64 @@
                             Privacy
                         </p>
                     </a>
+                </li>
+                <li class="nav-item @Url.MakeMenuOpenClass("Dashboard")">
+                    <a href="#" class="nav-link @Url.MakeMenuActiveClass("Dashboard")">
+                        <i class="nav-icon fas fa-tachometer-alt"></i>
+                        <p>
+                            Dashboard
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview" style="display: @Url.MakeMenuDisplayClass("Dashboard");">
+                        <li class="nav-item">
+                            <a asp-controller="Dashboard" asp-action="Index1" class="nav-link @Url.MakeActiveClass("Dashboard","Index1")">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Dashboard v1</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-controller="Dashboard" asp-action="Index2" class="nav-link @Url.MakeActiveClass("Dashboard","Index2")">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Dashboard v2</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-controller="Dashboard" asp-action="Index3" class="nav-link @Url.MakeActiveClass("Dashboard","Index3")">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Dashboard v3</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item @Url.MakeMenuOpenClass("Tree")">
+                    <a href="#" class="nav-link @Url.MakeMenuActiveClass("Tree")">
+                        <i class="nav-icon fas fa-tachometer-alt"></i>
+                        <p>
+                            Tree
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                    <ul class="nav nav-treeview" style="display: @Url.MakeMenuDisplayClass("Tree");">
+                        <li class="nav-item">
+                            <a asp-controller="Tree" asp-action="Index1" class="nav-link @Url.MakeActiveClass("Tree","Index1")">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Dashboard v1</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-controller="Tree" asp-action="Index2" class="nav-link @Url.MakeActiveClass("Tree","Index2")">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Dashboard v2</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a asp-controller="Tree" asp-action="Index3" class="nav-link @Url.MakeActiveClass("Tree","Index3")">
+                                <i class="far fa-circle nav-icon"></i>
+                                <p>Dashboard v3</p>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </nav>

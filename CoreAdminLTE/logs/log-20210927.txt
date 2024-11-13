@@ -1,0 +1,391 @@
+2021-09-27 16:10:04.645 +08:00 [INF] 啟動主機
+2021-09-27 16:10:06.189 +08:00 [INF] User profile is available. Using 'D:\Users\Hank.Chen\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-27 16:10:06.859 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-27 16:10:06.859 +08:00 [INF] Hosting environment: Development
+2021-09-27 16:10:06.859 +08:00 [INF] Content root path: D:\Users\Hank.Chen\source\repos\CoreAdminLTE\CoreAdminLTE
+2021-09-27 16:10:06.908 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44371/ - -
+2021-09-27 16:10:06.952 +08:00 [INF] Executing endpoint 'CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE)'
+2021-09-27 16:10:06.988 +08:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CoreAdminLTE.Controllers.HomeController (CoreAdminLTE).
+2021-09-27 16:10:07.070 +08:00 [INF] Executing action method CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE) - Validation state: "Valid"
+2021-09-27 16:10:07.175 +08:00 [INF] Executed action method CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE), returned result Microsoft.AspNetCore.Mvc.ViewResult in 99.5075ms.
+2021-09-27 16:10:07.197 +08:00 [INF] Executing ViewResult, running view Index.
+2021-09-27 16:10:07.346 +08:00 [INF] Executed ViewResult - view Index executed in 166.0518ms.
+2021-09-27 16:10:07.347 +08:00 [INF] Executed action CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE) in 358.3307ms
+2021-09-27 16:10:07.348 +08:00 [INF] Executed endpoint 'CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE)'
+2021-09-27 16:10:07.366 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44371/ - - - 200 - text/html;+charset=utf-8 459.2380ms
+2021-09-27 16:10:10.479 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44371/Dashboard/Index1 - -
+2021-09-27 16:10:10.482 +08:00 [INF] Executing endpoint 'CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE)'
+2021-09-27 16:10:10.484 +08:00 [INF] Route matched with {action = "Index1", controller = "Dashboard", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index1() on controller CoreAdminLTE.Controllers.DashboardController (CoreAdminLTE).
+2021-09-27 16:10:10.501 +08:00 [INF] Executing action method CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE) - Validation state: "Valid"
+2021-09-27 16:10:10.501 +08:00 [INF] Dashboard Index 1 Info.
+2021-09-27 16:10:10.501 +08:00 [WRN] Dashboard Index 1 Warning.
+2021-09-27 16:10:10.501 +08:00 [ERR] Dashboard Index 1 log Error.
+2021-09-27 16:10:10.501 +08:00 [INF] Dashboard Index 1 Info "2021-09-27T08:10:10.5019674Z".
+2021-09-27 16:10:10.502 +08:00 [INF] Executed action method CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.0745ms.
+2021-09-27 16:10:10.505 +08:00 [INF] Executing ViewResult, running view Index1.
+2021-09-27 16:10:10.513 +08:00 [INF] Executed ViewResult - view Index1 executed in 10.2845ms.
+2021-09-27 16:10:10.513 +08:00 [INF] Executed action CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE) in 28.7153ms
+2021-09-27 16:10:10.513 +08:00 [INF] Executed endpoint 'CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE)'
+2021-09-27 16:10:10.514 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44371/Dashboard/Index1 - - - 200 - text/html;+charset=utf-8 34.6870ms
+2021-09-27 16:11:50.556 +08:00 [INF] 啟動主機
+2021-09-27 16:11:51.941 +08:00 [INF] User profile is available. Using 'D:\Users\Hank.Chen\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-27 16:11:52.664 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-27 16:11:52.665 +08:00 [INF] Hosting environment: Development
+2021-09-27 16:11:52.665 +08:00 [INF] Content root path: D:\Users\Hank.Chen\source\repos\CoreAdminLTE\CoreAdminLTE
+2021-09-27 16:11:52.708 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44371/ - -
+2021-09-27 16:11:52.744 +08:00 [INF] Executing endpoint 'CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE)'
+2021-09-27 16:11:52.784 +08:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CoreAdminLTE.Controllers.HomeController (CoreAdminLTE).
+2021-09-27 16:11:52.872 +08:00 [INF] Executing action method CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE) - Validation state: "Valid"
+2021-09-27 16:11:52.957 +08:00 [INF] Executed action method CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE), returned result Microsoft.AspNetCore.Mvc.ViewResult in 79.9837ms.
+2021-09-27 16:11:52.977 +08:00 [INF] Executing ViewResult, running view Index.
+2021-09-27 16:11:53.128 +08:00 [INF] Executed ViewResult - view Index executed in 164.9943ms.
+2021-09-27 16:11:53.129 +08:00 [INF] Executed action CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE) in 343.9464ms
+2021-09-27 16:11:53.129 +08:00 [INF] Executed endpoint 'CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE)'
+2021-09-27 16:11:53.143 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44371/ - - - 200 - text/html;+charset=utf-8 436.4979ms
+2021-09-27 16:11:57.435 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44371/Dashboard/Index1 - -
+2021-09-27 16:11:57.440 +08:00 [INF] Executing endpoint 'CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE)'
+2021-09-27 16:11:57.442 +08:00 [INF] Route matched with {action = "Index1", controller = "Dashboard", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index1() on controller CoreAdminLTE.Controllers.DashboardController (CoreAdminLTE).
+2021-09-27 16:11:57.459 +08:00 [INF] Executing action method CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE) - Validation state: "Valid"
+2021-09-27 16:11:57.459 +08:00 [INF] Dashboard Index 1 Info.
+2021-09-27 16:11:57.459 +08:00 [WRN] Dashboard Index 1 Warning.
+2021-09-27 16:11:57.459 +08:00 [ERR] Dashboard Index 1 log Error.
+2021-09-27 16:11:57.459 +08:00 [INF] Dashboard Index 1 Info "2021-09-27T08:11:57.4599819Z".
+2021-09-27 16:11:57.460 +08:00 [INF] Executed action method CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.9921ms.
+2021-09-27 16:11:57.463 +08:00 [INF] Executing ViewResult, running view Index1.
+2021-09-27 16:11:57.471 +08:00 [INF] Executed ViewResult - view Index1 executed in 11.118ms.
+2021-09-27 16:11:57.472 +08:00 [INF] Executed action CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE) in 29.4861ms
+2021-09-27 16:11:57.472 +08:00 [INF] Executed endpoint 'CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE)'
+2021-09-27 16:11:57.472 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44371/Dashboard/Index1 - - - 200 - text/html;+charset=utf-8 37.0450ms
+2021-09-27 16:12:15.529 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44371/Dashboard/Index1 - -
+2021-09-27 16:12:15.533 +08:00 [INF] Executing endpoint 'CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE)'
+2021-09-27 16:12:15.533 +08:00 [INF] Route matched with {action = "Index1", controller = "Dashboard", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index1() on controller CoreAdminLTE.Controllers.DashboardController (CoreAdminLTE).
+2021-09-27 16:12:15.547 +08:00 [INF] Executing action method CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE) - Validation state: "Valid"
+2021-09-27 16:12:15.547 +08:00 [INF] Dashboard Index 1 Info.
+2021-09-27 16:12:15.547 +08:00 [WRN] Dashboard Index 1 Warning.
+2021-09-27 16:12:15.547 +08:00 [ERR] Dashboard Index 1 log Error.
+2021-09-27 16:12:15.547 +08:00 [INF] Dashboard Index 1 Info "2021-09-27T08:12:15.5478776Z".
+2021-09-27 16:12:15.547 +08:00 [INF] Executed action method CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2503ms.
+2021-09-27 16:12:15.548 +08:00 [INF] Executing ViewResult, running view Index1.
+2021-09-27 16:12:15.550 +08:00 [INF] Executed ViewResult - view Index1 executed in 1.9482ms.
+2021-09-27 16:12:15.550 +08:00 [INF] Executed action CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE) in 16.6645ms
+2021-09-27 16:12:15.550 +08:00 [INF] Executed endpoint 'CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE)'
+2021-09-27 16:12:15.550 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44371/Dashboard/Index1 - - - 200 - text/html;+charset=utf-8 21.7794ms
+2021-09-27 16:14:03.806 +08:00 [INF] 啟動主機
+2021-09-27 16:14:05.227 +08:00 [INF] User profile is available. Using 'D:\Users\Hank.Chen\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-27 16:14:05.890 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-27 16:14:05.890 +08:00 [INF] Hosting environment: Development
+2021-09-27 16:14:05.890 +08:00 [INF] Content root path: D:\Users\Hank.Chen\source\repos\CoreAdminLTE\CoreAdminLTE
+2021-09-27 16:14:05.940 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44371/ - -
+2021-09-27 16:14:05.970 +08:00 [INF] Executing endpoint 'CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE)'
+2021-09-27 16:14:06.006 +08:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CoreAdminLTE.Controllers.HomeController (CoreAdminLTE).
+2021-09-27 16:14:06.088 +08:00 [INF] Executing action method CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE) - Validation state: "Valid"
+2021-09-27 16:14:06.173 +08:00 [INF] Executed action method CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE), returned result Microsoft.AspNetCore.Mvc.ViewResult in 80.2635ms.
+2021-09-27 16:14:06.193 +08:00 [INF] Executing ViewResult, running view Index.
+2021-09-27 16:14:06.337 +08:00 [INF] Executed ViewResult - view Index executed in 158.388ms.
+2021-09-27 16:14:06.337 +08:00 [INF] Executed action CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE) in 331.1102ms
+2021-09-27 16:14:06.338 +08:00 [INF] Executed endpoint 'CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE)'
+2021-09-27 16:14:06.343 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44371/ - - - 200 - text/html;+charset=utf-8 404.8248ms
+2021-09-27 16:14:08.823 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44371/Dashboard/Index1 - -
+2021-09-27 16:14:08.837 +08:00 [INF] Executing endpoint 'CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE)'
+2021-09-27 16:14:08.838 +08:00 [INF] Route matched with {action = "Index1", controller = "Dashboard", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index1() on controller CoreAdminLTE.Controllers.DashboardController (CoreAdminLTE).
+2021-09-27 16:14:08.852 +08:00 [INF] Executing action method CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE) - Validation state: "Valid"
+2021-09-27 16:14:08.852 +08:00 [INF] Dashboard Index 1 通知.
+2021-09-27 16:14:08.853 +08:00 [WRN] Dashboard Index 1 警告.
+2021-09-27 16:14:08.853 +08:00 [ERR] Dashboard Index 1 log 錯誤.
+2021-09-27 16:14:08.853 +08:00 [INF] Dashboard Index 1 Info 現在時間 "2021-09-27T08:14:08.8532006Z".
+2021-09-27 16:14:08.853 +08:00 [INF] Executed action method CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.4908ms.
+2021-09-27 16:14:08.857 +08:00 [INF] Executing ViewResult, running view Index1.
+2021-09-27 16:14:08.862 +08:00 [INF] Executed ViewResult - view Index1 executed in 8.4689ms.
+2021-09-27 16:14:08.862 +08:00 [INF] Executed action CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE) in 24.2708ms
+2021-09-27 16:14:08.862 +08:00 [INF] Executed endpoint 'CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE)'
+2021-09-27 16:14:08.863 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44371/Dashboard/Index1 - - - 200 - text/html;+charset=utf-8 40.4301ms
+2021-09-27 16:16:49.093 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44371/Dashboard/Index1 - -
+2021-09-27 16:16:49.103 +08:00 [INF] Executing endpoint 'CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE)'
+2021-09-27 16:16:49.104 +08:00 [INF] Route matched with {action = "Index1", controller = "Dashboard", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index1() on controller CoreAdminLTE.Controllers.DashboardController (CoreAdminLTE).
+2021-09-27 16:16:49.129 +08:00 [INF] Executing action method CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE) - Validation state: "Valid"
+2021-09-27 16:16:49.129 +08:00 [INF] Dashboard Index 1 通知.
+2021-09-27 16:16:49.129 +08:00 [WRN] Dashboard Index 1 警告.
+2021-09-27 16:16:49.129 +08:00 [ERR] Dashboard Index 1 log 錯誤.
+2021-09-27 16:16:49.129 +08:00 [INF] Dashboard Index 1 Info 現在時間 "2021-09-27T08:16:49.1297028Z".
+2021-09-27 16:16:49.129 +08:00 [INF] Executed action method CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1667ms.
+2021-09-27 16:16:49.130 +08:00 [INF] Executing ViewResult, running view Index1.
+2021-09-27 16:16:49.131 +08:00 [INF] Executed ViewResult - view Index1 executed in 1.9884ms.
+2021-09-27 16:16:49.132 +08:00 [INF] Executed action CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE) in 27.7164ms
+2021-09-27 16:16:49.132 +08:00 [INF] Executed endpoint 'CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE)'
+2021-09-27 16:16:49.132 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44371/Dashboard/Index1 - - - 200 - text/html;+charset=utf-8 39.5551ms
+2021-09-27 16:22:08.041 +08:00 [INF] 啟動主機
+2021-09-27 16:22:09.354 +08:00 [INF] User profile is available. Using 'D:\Users\Hank.Chen\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-27 16:22:10.005 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-27 16:22:10.005 +08:00 [INF] Hosting environment: Development
+2021-09-27 16:22:10.005 +08:00 [INF] Content root path: D:\Users\Hank.Chen\source\repos\CoreAdminLTE\CoreAdminLTE
+2021-09-27 16:22:10.047 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44371/ - -
+2021-09-27 16:22:10.078 +08:00 [INF] Executing endpoint 'CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE)'
+2021-09-27 16:22:10.123 +08:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CoreAdminLTE.Controllers.HomeController (CoreAdminLTE).
+2021-09-27 16:22:10.176 +08:00 [INF] Executing action method CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE) - Validation state: "Valid"
+2021-09-27 16:22:10.255 +08:00 [INF] Executed action method CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE), returned result Microsoft.AspNetCore.Mvc.ViewResult in 73.7615ms.
+2021-09-27 16:22:10.274 +08:00 [INF] Executing ViewResult, running view Index.
+2021-09-27 16:22:10.414 +08:00 [INF] Executed ViewResult - view Index executed in 152.7076ms.
+2021-09-27 16:22:10.415 +08:00 [INF] Executed action CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE) in 291.1727ms
+2021-09-27 16:22:10.415 +08:00 [INF] Executed endpoint 'CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE)'
+2021-09-27 16:22:10.440 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44371/ - - - 200 - text/html;+charset=utf-8 394.8136ms
+2021-09-27 16:22:12.747 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44371/Dashboard/Index1 - -
+2021-09-27 16:22:12.750 +08:00 [INF] Executing endpoint 'CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE)'
+2021-09-27 16:22:12.752 +08:00 [INF] Route matched with {action = "Index1", controller = "Dashboard", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index1() on controller CoreAdminLTE.Controllers.DashboardController (CoreAdminLTE).
+2021-09-27 16:22:12.766 +08:00 [INF] Executing action method CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE) - Validation state: "Valid"
+2021-09-27 16:22:12.767 +08:00 [INF] Dashboard Index 1 通知.
+2021-09-27 16:22:12.767 +08:00 [WRN] Dashboard Index 1 警告.
+2021-09-27 16:22:12.767 +08:00 [ERR] Dashboard Index 1 log 錯誤.
+2021-09-27 16:22:12.767 +08:00 [INF] Dashboard Index 1 Info 現在時間 "2021-09-27T08:22:12.7675094Z".
+2021-09-27 16:22:12.768 +08:00 [INF] Executed action method CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.1554ms.
+2021-09-27 16:22:12.771 +08:00 [INF] Executing ViewResult, running view Index1.
+2021-09-27 16:22:12.776 +08:00 [INF] Executed ViewResult - view Index1 executed in 7.7677ms.
+2021-09-27 16:22:12.776 +08:00 [INF] Executed action CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE) in 24.0151ms
+2021-09-27 16:22:12.776 +08:00 [INF] Executed endpoint 'CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE)'
+2021-09-27 16:22:12.776 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44371/Dashboard/Index1 - - - 200 - text/html;+charset=utf-8 29.7249ms
+2021-09-27 16:23:40.693 +08:00 [INF] 啟動主機
+2021-09-27 16:23:41.993 +08:00 [INF] User profile is available. Using 'D:\Users\Hank.Chen\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-27 16:23:42.682 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-27 16:23:42.682 +08:00 [INF] Hosting environment: Development
+2021-09-27 16:23:42.682 +08:00 [INF] Content root path: D:\Users\Hank.Chen\source\repos\CoreAdminLTE\CoreAdminLTE
+2021-09-27 16:23:42.742 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44371/ - -
+2021-09-27 16:23:42.783 +08:00 [INF] Executing endpoint 'CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE)'
+2021-09-27 16:23:42.827 +08:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CoreAdminLTE.Controllers.HomeController (CoreAdminLTE).
+2021-09-27 16:23:42.900 +08:00 [INF] Executing action method CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE) - Validation state: "Valid"
+2021-09-27 16:23:42.988 +08:00 [INF] Executed action method CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE), returned result Microsoft.AspNetCore.Mvc.ViewResult in 82.599ms.
+2021-09-27 16:23:43.009 +08:00 [INF] Executing ViewResult, running view Index.
+2021-09-27 16:23:43.152 +08:00 [INF] Executed ViewResult - view Index executed in 157.6289ms.
+2021-09-27 16:23:43.153 +08:00 [INF] Executed action CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE) in 325.4853ms
+2021-09-27 16:23:43.153 +08:00 [INF] Executed endpoint 'CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE)'
+2021-09-27 16:23:43.170 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44371/ - - - 200 - text/html;+charset=utf-8 430.1219ms
+2021-09-27 16:24:17.836 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44371/Dashboard/Index1 - -
+2021-09-27 16:24:17.874 +08:00 [INF] Executing endpoint 'CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE)'
+2021-09-27 16:24:17.875 +08:00 [INF] Route matched with {action = "Index1", controller = "Dashboard", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index1() on controller CoreAdminLTE.Controllers.DashboardController (CoreAdminLTE).
+2021-09-27 16:24:17.895 +08:00 [INF] Executing action method CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE) - Validation state: "Valid"
+2021-09-27 16:24:17.896 +08:00 [INF] Dashboard Index 1 通知.
+2021-09-27 16:24:17.896 +08:00 [WRN] Dashboard Index 1 警告.
+2021-09-27 16:24:17.896 +08:00 [ERR] Dashboard Index 1 log 錯誤.
+2021-09-27 16:24:17.896 +08:00 [INF] Dashboard Index 1 Info 現在時間 "2021-09-27T08:24:17.8966926Z".
+2021-09-27 16:24:17.897 +08:00 [INF] Executed action method CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.3268ms.
+2021-09-27 16:24:17.914 +08:00 [INF] Executing ViewResult, running view Index1.
+2021-09-27 16:24:17.920 +08:00 [INF] Executed ViewResult - view Index1 executed in 23.5449ms.
+2021-09-27 16:24:17.921 +08:00 [INF] Executed action CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE) in 45.2121ms
+2021-09-27 16:24:17.921 +08:00 [INF] Executed endpoint 'CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE)'
+2021-09-27 16:24:17.921 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44371/Dashboard/Index1 - - - 200 - text/html;+charset=utf-8 92.5671ms
+2021-09-27 16:24:58.613 +08:00 [INF] 啟動主機
+2021-09-27 16:24:59.977 +08:00 [INF] User profile is available. Using 'D:\Users\Hank.Chen\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-27 16:25:00.649 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-27 16:25:00.649 +08:00 [INF] Hosting environment: Development
+2021-09-27 16:25:00.649 +08:00 [INF] Content root path: D:\Users\Hank.Chen\source\repos\CoreAdminLTE\CoreAdminLTE
+2021-09-27 16:25:00.692 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44371/ - -
+2021-09-27 16:25:00.722 +08:00 [INF] Executing endpoint 'CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE)'
+2021-09-27 16:25:00.768 +08:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CoreAdminLTE.Controllers.HomeController (CoreAdminLTE).
+2021-09-27 16:25:00.845 +08:00 [INF] Executing action method CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE) - Validation state: "Valid"
+2021-09-27 16:25:00.934 +08:00 [INF] Executed action method CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE), returned result Microsoft.AspNetCore.Mvc.ViewResult in 83.6688ms.
+2021-09-27 16:25:00.954 +08:00 [INF] Executing ViewResult, running view Index.
+2021-09-27 16:25:01.094 +08:00 [INF] Executed ViewResult - view Index executed in 153.8811ms.
+2021-09-27 16:25:01.094 +08:00 [INF] Executed action CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE) in 325.6461ms
+2021-09-27 16:25:01.095 +08:00 [INF] Executed endpoint 'CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE)'
+2021-09-27 16:25:01.110 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44371/ - - - 200 - text/html;+charset=utf-8 419.6609ms
+2021-09-27 16:25:04.499 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44371/Dashboard/Index1 - -
+2021-09-27 16:25:04.512 +08:00 [INF] Executing endpoint 'CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE)'
+2021-09-27 16:25:04.514 +08:00 [INF] Route matched with {action = "Index1", controller = "Dashboard", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index1() on controller CoreAdminLTE.Controllers.DashboardController (CoreAdminLTE).
+2021-09-27 16:25:04.528 +08:00 [INF] Executing action method CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE) - Validation state: "Valid"
+2021-09-27 16:25:04.528 +08:00 [INF] Dashboard Index 1 通知.
+2021-09-27 16:25:04.528 +08:00 [WRN] Dashboard Index 1 警告.
+2021-09-27 16:25:04.528 +08:00 [ERR] Dashboard Index 1 log 錯誤.
+2021-09-27 16:25:04.529 +08:00 [INF] Dashboard Index 1 Info 現在時間 "2021-09-27T08:25:04.5290250Z".
+2021-09-27 16:25:04.529 +08:00 [INF] Executed action method CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.1231ms.
+2021-09-27 16:25:04.532 +08:00 [INF] Executing ViewResult, running view Index1.
+2021-09-27 16:25:04.541 +08:00 [INF] Executed ViewResult - view Index1 executed in 11.3779ms.
+2021-09-27 16:25:04.541 +08:00 [INF] Executed action CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE) in 26.9037ms
+2021-09-27 16:25:04.541 +08:00 [INF] Executed endpoint 'CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE)'
+2021-09-27 16:25:04.542 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44371/Dashboard/Index1 - - - 200 - text/html;+charset=utf-8 42.1550ms
+2021-09-27 16:25:40.756 +08:00 [INF] 啟動主機
+2021-09-27 16:25:42.124 +08:00 [INF] User profile is available. Using 'D:\Users\Hank.Chen\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-27 16:25:42.793 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-27 16:25:42.793 +08:00 [INF] Hosting environment: Development
+2021-09-27 16:25:42.793 +08:00 [INF] Content root path: D:\Users\Hank.Chen\source\repos\CoreAdminLTE\CoreAdminLTE
+2021-09-27 16:25:42.839 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44371/ - -
+2021-09-27 16:25:42.869 +08:00 [INF] Executing endpoint 'CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE)'
+2021-09-27 16:25:42.906 +08:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CoreAdminLTE.Controllers.HomeController (CoreAdminLTE).
+2021-09-27 16:25:42.982 +08:00 [INF] Executing action method CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE) - Validation state: "Valid"
+2021-09-27 16:25:43.091 +08:00 [INF] Executed action method CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE), returned result Microsoft.AspNetCore.Mvc.ViewResult in 103.8509ms.
+2021-09-27 16:25:43.113 +08:00 [INF] Executing ViewResult, running view Index.
+2021-09-27 16:25:43.262 +08:00 [INF] Executed ViewResult - view Index executed in 163.9999ms.
+2021-09-27 16:25:43.263 +08:00 [INF] Executed action CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE) in 356.2065ms
+2021-09-27 16:25:43.263 +08:00 [INF] Executed endpoint 'CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE)'
+2021-09-27 16:25:43.280 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44371/ - - - 200 - text/html;+charset=utf-8 442.5634ms
+2021-09-27 16:26:11.811 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44371/Dashboard/Index1 - -
+2021-09-27 16:26:11.852 +08:00 [INF] Executing endpoint 'CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE)'
+2021-09-27 16:26:11.853 +08:00 [INF] Route matched with {action = "Index1", controller = "Dashboard", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index1() on controller CoreAdminLTE.Controllers.DashboardController (CoreAdminLTE).
+2021-09-27 16:26:11.866 +08:00 [INF] Executing action method CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE) - Validation state: "Valid"
+2021-09-27 16:26:11.867 +08:00 [INF] Dashboard Index 1 通知.
+2021-09-27 16:26:11.867 +08:00 [WRN] Dashboard Index 1 警告.
+2021-09-27 16:26:11.867 +08:00 [ERR] Dashboard Index 1 log 錯誤.
+2021-09-27 16:26:11.867 +08:00 [INF] Dashboard Index 1 Info 現在時間 "2021-09-27T08:26:11.8674010Z".
+2021-09-27 16:26:11.867 +08:00 [INF] Executed action method CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.1132ms.
+2021-09-27 16:26:11.895 +08:00 [INF] Executing ViewResult, running view Index1.
+2021-09-27 16:26:11.901 +08:00 [INF] Executed ViewResult - view Index1 executed in 17.4199ms.
+2021-09-27 16:26:11.901 +08:00 [INF] Executed action CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE) in 47.1929ms
+2021-09-27 16:26:11.901 +08:00 [INF] Executed endpoint 'CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE)'
+2021-09-27 16:26:11.901 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44371/Dashboard/Index1 - - - 200 - text/html;+charset=utf-8 90.2088ms
+2021-09-27 16:36:02.261 +08:00 [INF] 啟動主機
+2021-09-27 16:36:03.655 +08:00 [INF] User profile is available. Using 'D:\Users\Hank.Chen\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-27 16:36:04.380 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-27 16:36:04.380 +08:00 [INF] Hosting environment: Development
+2021-09-27 16:36:04.380 +08:00 [INF] Content root path: D:\Users\Hank.Chen\source\repos\CoreAdminLTE\CoreAdminLTE
+2021-09-27 16:36:04.444 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44371/ - -
+2021-09-27 16:36:04.487 +08:00 [INF] Executing endpoint 'CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE)'
+2021-09-27 16:36:04.530 +08:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CoreAdminLTE.Controllers.HomeController (CoreAdminLTE).
+2021-09-27 16:36:04.603 +08:00 [INF] Executing action method CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE) - Validation state: "Valid"
+2021-09-27 16:36:04.689 +08:00 [INF] Executed action method CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE), returned result Microsoft.AspNetCore.Mvc.ViewResult in 81.1959ms.
+2021-09-27 16:36:04.711 +08:00 [INF] Executing ViewResult, running view Index.
+2021-09-27 16:36:04.845 +08:00 [INF] Executed ViewResult - view Index executed in 149.8321ms.
+2021-09-27 16:36:04.846 +08:00 [INF] Executed action CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE) in 315.2413ms
+2021-09-27 16:36:04.846 +08:00 [INF] Executed endpoint 'CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE)'
+2021-09-27 16:36:04.874 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44371/ - - - 200 - text/html;+charset=utf-8 432.0602ms
+2021-09-27 16:36:45.993 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44371/Dashboard/Index1 - -
+2021-09-27 16:36:46.014 +08:00 [INF] Executing endpoint 'CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE)'
+2021-09-27 16:36:46.040 +08:00 [INF] Route matched with {action = "Index1", controller = "Dashboard", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index1() on controller CoreAdminLTE.Controllers.DashboardController (CoreAdminLTE).
+2021-09-27 16:36:46.059 +08:00 [INF] Executing action method CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE) - Validation state: "Valid"
+2021-09-27 16:36:46.060 +08:00 [INF] Dashboard Index 1 通知.
+2021-09-27 16:36:46.060 +08:00 [WRN] Dashboard Index 1 警告.
+2021-09-27 16:36:46.060 +08:00 [ERR] Dashboard Index 1 log 錯誤.
+2021-09-27 16:36:46.060 +08:00 [INF] Dashboard Index 1 Info 現在時間 "2021-09-27T08:36:46.0604678Z".
+2021-09-27 16:36:46.061 +08:00 [INF] Executed action method CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.497ms.
+2021-09-27 16:36:46.078 +08:00 [INF] Executing ViewResult, running view Index1.
+2021-09-27 16:36:46.084 +08:00 [INF] Executed ViewResult - view Index1 executed in 22.5423ms.
+2021-09-27 16:36:46.084 +08:00 [INF] Executed action CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE) in 43.942ms
+2021-09-27 16:36:46.084 +08:00 [INF] Executed endpoint 'CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE)'
+2021-09-27 16:36:46.084 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44371/Dashboard/Index1 - - - 200 - text/html;+charset=utf-8 99.4092ms
+2021-09-27 16:41:40.648 +08:00 [INF] 啟動主機
+2021-09-27 16:41:42.059 +08:00 [INF] User profile is available. Using 'D:\Users\Hank.Chen\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-27 16:41:42.784 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-27 16:41:42.785 +08:00 [INF] Hosting environment: Development
+2021-09-27 16:41:42.785 +08:00 [INF] Content root path: D:\Users\Hank.Chen\source\repos\CoreAdminLTE\CoreAdminLTE
+2021-09-27 16:41:42.834 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44371/ - -
+2021-09-27 16:41:42.874 +08:00 [INF] Executing endpoint 'CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE)'
+2021-09-27 16:41:42.920 +08:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CoreAdminLTE.Controllers.HomeController (CoreAdminLTE).
+2021-09-27 16:41:43.003 +08:00 [INF] Executing action method CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE) - Validation state: "Valid"
+2021-09-27 16:41:43.120 +08:00 [INF] Executed action method CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE), returned result Microsoft.AspNetCore.Mvc.ViewResult in 110.6951ms.
+2021-09-27 16:41:43.140 +08:00 [INF] Executing ViewResult, running view Index.
+2021-09-27 16:41:43.282 +08:00 [INF] Executed ViewResult - view Index executed in 155.6193ms.
+2021-09-27 16:41:43.283 +08:00 [INF] Executed action CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE) in 362.5749ms
+2021-09-27 16:41:43.284 +08:00 [INF] Executed endpoint 'CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE)'
+2021-09-27 16:41:43.311 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44371/ - - - 200 - text/html;+charset=utf-8 479.7637ms
+2021-09-27 16:42:03.118 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44371/Dashboard/Index1 - -
+2021-09-27 16:42:03.122 +08:00 [INF] Executing endpoint 'CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE)'
+2021-09-27 16:42:03.124 +08:00 [INF] Route matched with {action = "Index1", controller = "Dashboard", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index1() on controller CoreAdminLTE.Controllers.DashboardController (CoreAdminLTE).
+2021-09-27 16:42:03.140 +08:00 [INF] Executing action method CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE) - Validation state: "Valid"
+2021-09-27 16:42:03.140 +08:00 [INF] Dashboard Index 1 通知.
+2021-09-27 16:42:03.140 +08:00 [WRN] Dashboard Index 1 警告.
+2021-09-27 16:42:03.140 +08:00 [ERR] Dashboard Index 1 log 錯誤.
+2021-09-27 16:42:03.141 +08:00 [INF] Dashboard Index 1 Info 現在時間 "2021-09-27T08:42:03.1409742Z".
+2021-09-27 16:42:03.141 +08:00 [INF] Executed action method CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.2097ms.
+2021-09-27 16:42:03.144 +08:00 [INF] Executing ViewResult, running view Index1.
+2021-09-27 16:42:03.152 +08:00 [INF] Executed ViewResult - view Index1 executed in 10.6841ms.
+2021-09-27 16:42:03.152 +08:00 [INF] Executed action CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE) in 27.9916ms
+2021-09-27 16:42:03.152 +08:00 [INF] Executed endpoint 'CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE)'
+2021-09-27 16:42:03.153 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44371/Dashboard/Index1 - - - 200 - text/html;+charset=utf-8 35.1038ms
+2021-09-27 16:45:57.410 +08:00 [INF] 啟動主機
+2021-09-27 16:45:58.758 +08:00 [INF] User profile is available. Using 'D:\Users\Hank.Chen\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-09-27 16:45:59.428 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-27 16:45:59.428 +08:00 [INF] Hosting environment: Development
+2021-09-27 16:45:59.428 +08:00 [INF] Content root path: D:\Users\Hank.Chen\source\repos\CoreAdminLTE\CoreAdminLTE
+2021-09-27 16:45:59.471 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44371/ - -
+2021-09-27 16:45:59.508 +08:00 [INF] Executing endpoint 'CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE)'
+2021-09-27 16:45:59.554 +08:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CoreAdminLTE.Controllers.HomeController (CoreAdminLTE).
+2021-09-27 16:45:59.628 +08:00 [INF] Executing action method CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE) - Validation state: "Valid"
+2021-09-27 16:45:59.719 +08:00 [INF] Executed action method CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE), returned result Microsoft.AspNetCore.Mvc.ViewResult in 85.2428ms.
+2021-09-27 16:45:59.738 +08:00 [INF] Executing ViewResult, running view Index.
+2021-09-27 16:45:59.868 +08:00 [INF] Executed ViewResult - view Index executed in 143.8218ms.
+2021-09-27 16:45:59.869 +08:00 [INF] Executed action CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE) in 314.1683ms
+2021-09-27 16:45:59.870 +08:00 [INF] Executed endpoint 'CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE)'
+2021-09-27 16:45:59.887 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44371/ - - - 200 - text/html;+charset=utf-8 418.4647ms
+2021-09-27 16:46:11.522 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44371/Dashboard/Index1 - -
+2021-09-27 16:46:11.525 +08:00 [INF] Executing endpoint 'CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE)'
+2021-09-27 16:46:11.526 +08:00 [INF] Route matched with {action = "Index1", controller = "Dashboard", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index1() on controller CoreAdminLTE.Controllers.DashboardController (CoreAdminLTE).
+2021-09-27 16:46:11.539 +08:00 [INF] Executing action method CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE) - Validation state: "Valid"
+2021-09-27 16:46:11.540 +08:00 [INF] Dashboard Index 1 通知.
+2021-09-27 16:46:11.540 +08:00 [WRN] Dashboard Index 1 警告.
+2021-09-27 16:46:11.540 +08:00 [ERR] Dashboard Index 1 log 錯誤.
+2021-09-27 16:46:11.540 +08:00 [INF] Dashboard Index 1 Info 現在時間 "2021-09-27T08:46:11.5406500Z".
+2021-09-27 16:46:11.541 +08:00 [INF] Executed action method CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.9758ms.
+2021-09-27 16:46:11.561 +08:00 [INF] Executing ViewResult, running view Index1.
+2021-09-27 16:46:11.568 +08:00 [INF] Executed ViewResult - view Index1 executed in 26.768ms.
+2021-09-27 16:46:11.568 +08:00 [INF] Executed action CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE) in 41.7492ms
+2021-09-27 16:46:11.568 +08:00 [INF] Executed endpoint 'CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE)'
+2021-09-27 16:46:11.568 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44371/Dashboard/Index1 - - - 200 - text/html;+charset=utf-8 46.0306ms
+2021-09-27 16:46:26.755 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44371/Home - -
+2021-09-27 16:46:26.758 +08:00 [INF] Executing endpoint 'CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE)'
+2021-09-27 16:46:26.758 +08:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CoreAdminLTE.Controllers.HomeController (CoreAdminLTE).
+2021-09-27 16:46:26.772 +08:00 [INF] Executing action method CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE) - Validation state: "Valid"
+2021-09-27 16:46:26.780 +08:00 [INF] Executed action method CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE), returned result Microsoft.AspNetCore.Mvc.ViewResult in 7.4425ms.
+2021-09-27 16:46:26.780 +08:00 [INF] Executing ViewResult, running view Index.
+2021-09-27 16:46:26.782 +08:00 [INF] Executed ViewResult - view Index executed in 1.8322ms.
+2021-09-27 16:46:26.782 +08:00 [INF] Executed action CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE) in 23.4833ms
+2021-09-27 16:46:26.782 +08:00 [INF] Executed endpoint 'CoreAdminLTE.Controllers.HomeController.Index (CoreAdminLTE)'
+2021-09-27 16:46:26.782 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44371/Home - - - 200 - text/html;+charset=utf-8 27.4460ms
+2021-09-27 16:46:51.720 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44371/Dashboard/Index1 - -
+2021-09-27 16:46:51.729 +08:00 [INF] Executing endpoint 'CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE)'
+2021-09-27 16:46:51.729 +08:00 [INF] Route matched with {action = "Index1", controller = "Dashboard", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index1() on controller CoreAdminLTE.Controllers.DashboardController (CoreAdminLTE).
+2021-09-27 16:46:51.745 +08:00 [INF] Executing action method CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE) - Validation state: "Valid"
+2021-09-27 16:46:51.746 +08:00 [INF] Dashboard Index 1 通知.
+2021-09-27 16:46:51.746 +08:00 [WRN] Dashboard Index 1 警告.
+2021-09-27 16:46:51.746 +08:00 [ERR] Dashboard Index 1 log 錯誤.
+2021-09-27 16:46:51.746 +08:00 [INF] Dashboard Index 1 Info 現在時間 "2021-09-27T08:46:51.7461375Z".
+2021-09-27 16:46:51.746 +08:00 [INF] Executed action method CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.1486ms.
+2021-09-27 16:46:51.746 +08:00 [INF] Executing ViewResult, running view Index1.
+2021-09-27 16:46:51.748 +08:00 [INF] Executed ViewResult - view Index1 executed in 2.1383ms.
+2021-09-27 16:46:51.749 +08:00 [INF] Executed action CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE) in 19.8316ms
+2021-09-27 16:46:51.758 +08:00 [INF] Executed endpoint 'CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE)'
+2021-09-27 16:46:51.759 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44371/Dashboard/Index1 - - - 200 - text/html;+charset=utf-8 39.3544ms
+2021-09-27 16:47:16.392 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44371/Dashboard/Index1 - -
+2021-09-27 16:47:16.393 +08:00 [INF] Executing endpoint 'CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE)'
+2021-09-27 16:47:16.394 +08:00 [INF] Route matched with {action = "Index1", controller = "Dashboard", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index1() on controller CoreAdminLTE.Controllers.DashboardController (CoreAdminLTE).
+2021-09-27 16:47:16.418 +08:00 [INF] Executing action method CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE) - Validation state: "Valid"
+2021-09-27 16:47:16.418 +08:00 [INF] Dashboard Index 1 通知.
+2021-09-27 16:47:16.418 +08:00 [WRN] Dashboard Index 1 警告.
+2021-09-27 16:47:16.418 +08:00 [ERR] Dashboard Index 1 log 錯誤.
+2021-09-27 16:47:16.418 +08:00 [INF] Dashboard Index 1 Info 現在時間 "2021-09-27T08:47:16.4184369Z".
+2021-09-27 16:47:16.418 +08:00 [INF] Executed action method CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2188ms.
+2021-09-27 16:47:16.419 +08:00 [INF] Executing ViewResult, running view Index1.
+2021-09-27 16:47:16.437 +08:00 [INF] Executed ViewResult - view Index1 executed in 19.3344ms.
+2021-09-27 16:47:16.438 +08:00 [INF] Executed action CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE) in 43.1828ms
+2021-09-27 16:47:16.438 +08:00 [INF] Executed endpoint 'CoreAdminLTE.Controllers.DashboardController.Index1 (CoreAdminLTE)'
+2021-09-27 16:47:16.438 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44371/Dashboard/Index1 - - - 200 - text/html;+charset=utf-8 45.6697ms
+2021-09-27 16:50:49.301 +08:00 [INF] 啟動主機
+2021-09-27 16:50:51.318 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-27 16:50:51.335 +08:00 [INF] Hosting environment: Development
+2021-09-27 16:50:51.336 +08:00 [INF] Content root path: D:\Users\Hank.Chen\source\repos\CoreAdminLTE\CoreAdminLTE
+2021-09-27 16:51:38.122 +08:00 [INF] Dashboard Index 1 通知.
+2021-09-27 16:51:38.124 +08:00 [WRN] Dashboard Index 1 警告.
+2021-09-27 16:51:38.124 +08:00 [ERR] Dashboard Index 1 log 錯誤.
+2021-09-27 16:51:38.124 +08:00 [INF] Dashboard Index 1 Info 現在時間 "2021-09-27T08:51:38.1241729Z".
+2021-09-27 16:52:19.500 +08:00 [INF] Entity Framework Core 5.0.10 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2021-09-27 16:52:20.222 +08:00 [INF] Executed DbCommand (57ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName]
+FROM [AspNetUsers] AS [a]
+WHERE [a].[NormalizedUserName] = @__normalizedUserName_0
+2021-09-27 16:52:20.387 +08:00 [INF] Executed DbCommand (13ms) [Parameters=[@__user_Id_0='?' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0
+2021-09-27 16:52:20.414 +08:00 [INF] User logged in.
+2021-09-27 16:52:22.086 +08:00 [INF] Dashboard Index 1 通知.
+2021-09-27 16:52:22.086 +08:00 [WRN] Dashboard Index 1 警告.
+2021-09-27 16:52:22.086 +08:00 [ERR] Dashboard Index 1 log 錯誤.
+2021-09-27 16:52:22.086 +08:00 [INF] Dashboard Index 1 Info 現在時間 "2021-09-27T08:52:22.0863755Z".
+2021-09-27 17:17:14.741 +08:00 [INF] 啟動主機
+2021-09-27 17:17:16.776 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-27 17:17:16.798 +08:00 [INF] Hosting environment: Development
+2021-09-27 17:17:16.799 +08:00 [INF] Content root path: D:\Users\Hank.Chen\source\repos\CoreAdminLTE\CoreAdminLTE
+2021-09-27 17:17:38.767 +08:00 [INF] 啟動主機
+2021-09-27 17:34:03.985 +08:00 [INF] 啟動主機
+2021-09-27 17:34:05.988 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-09-27 17:34:06.004 +08:00 [INF] Hosting environment: Development
+2021-09-27 17:34:06.005 +08:00 [INF] Content root path: D:\Users\Hank.Chen\source\repos\CoreAdminLTE\CoreAdminLTE
+2021-09-27 17:34:10.741 +08:00 [INF] Dashboard Index 1 通知.
+2021-09-27 17:34:10.742 +08:00 [WRN] Dashboard Index 1 警告.
+2021-09-27 17:34:10.742 +08:00 [ERR] Dashboard Index 1 log 錯誤.
+2021-09-27 17:34:10.743 +08:00 [INF] Dashboard Index 1 Info 現在時間 "2021-09-27T09:34:10.7429360Z".

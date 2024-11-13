@@ -1,10 +1,12 @@
 ﻿using CoreAdminLTE.Models;
+using MaxMind.GeoIP2;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -22,6 +24,18 @@ namespace CoreAdminLTE.Controllers
         [AllowAnonymous]
         public IActionResult Index()
         {
+            //nuget install MaxMind.GeoIP2 - 有free version，要註冊帳號。 
+            var path = Directory.GetCurrentDirectory();
+            path = path + @"\wwwroot\ip\GeoLite2-City.mmdb";
+            using (var reader = new DatabaseReader(path))
+            {
+                var response = reader.City("118.163.104.61");
+                
+                //德國 De
+                //18.193.2.17
+                
+                string isocode =response.Country.IsoCode;
+            }
             return View();
         }
 
